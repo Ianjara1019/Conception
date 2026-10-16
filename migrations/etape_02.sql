@@ -1,4 +1,4 @@
-CREATE TABLE OR REPLACE categorie(
+CREATE TABLE IF NOT EXISTS categorie(
     id SERIAL PRIMARY KEY,
     libelle VARCHAR(50)
 );
